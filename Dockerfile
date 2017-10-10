@@ -20,4 +20,4 @@ EXPOSE 5000
 ENV NAME World
 
 # コンテナ起動時に app.py を実行
-CMD ["python", "main.py"]
+CMD ["python", "/app/main.py"]
