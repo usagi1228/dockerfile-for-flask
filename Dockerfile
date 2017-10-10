@@ -1,6 +1,9 @@
 # 公式 Python ランタイムを親イメージとして使用
 FROM python:3.4.1
 
+# /app ディレクトリを作成
+RUN mkdir /app
+
 # 作業ディレクトリを /app に設定
 WORKDIR /app
 
